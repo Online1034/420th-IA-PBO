@@ -754,6 +754,10 @@ class CfgFunctions {
 		};
 	};
     class TGC {
+        class Curators {
+            file = "TGC\Functions\Curators";
+            class addCuratorAddons {};
+        };
         class Drones {
             file = "TGC\Functions\Drones";
             class initDroneHandlers { postInit = 1; };
